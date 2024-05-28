@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости Нарына</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #ecf0f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background: #ecf0f3;
+            width: 100%;
+            padding: 20px 0;
+            box-shadow: inset 8px 8px 16px #d1d9e6, inset -8px -8px 16px #ffffff;
+            display: flex;
+            justify-content: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+            text-shadow: 1px 1px 2px #ffffff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .news-card {
+            background: #ecf0f3;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+            transition: transform 0.2s;
+        }
+        .news-card:hover {
+            transform: translateY(-10px);
+        }
+        .news-card h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .news-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background: #ecf0f3;
+            width: 100%;
+            padding: 10px 0;
+            box-shadow: inset 8px 8px 16px #d1d9e6, inset -8px -8px 16px #ffffff;
+            display: flex;
+            justify-content: center;
+        }
+        footer p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Новости Нарына</h1>
+    </header>
+    <div class="container">
+        <div class="news-card">
+            <h2>Заголовок новости 1</h2>
+            <p>Описание новости 1. Это текст новости, который предоставляет важную информацию о событии, произошедшем в Нарыне. Текст может содержать детали, комментарии и анализ.</p>
+        </div>
+        <div class="news-card">
+            <h2>Заголовок новости 2</h2>
+            <p>Описание новости 2. Это текст новости, который предоставляет важную информацию о событии, произошедшем в Нарыне. Текст может содержать детали, комментарии и анализ.</p>
+        </div>
+        <div class="news-card">
+            <h2>Заголовок новости 3</h2>
+            <p>Описание новости 3. Это текст новости, который предоставляет важную информацию о событии, произошедшем в Нарыне. Текст может содержать детали, комментарии и анализ.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Новости Нарына</p>
+    </footer>
+</body>
+</html>
